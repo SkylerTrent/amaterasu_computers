@@ -1,0 +1,122 @@
+.homeHeroZimgNew {
+    width: 100%;
+	display: inline;
+	margin-left: 60px;
+}
+
+.homeHeroZimgNew2 {
+	width: 100%;
+	display: inline;
+}
+
+.homeHeroRowZ {
+	width: 80%;
+	margin: 0 auto;
+	display: table;
+	height: 75vh;
+	position: relative;
+	max-width: 900px;
+}
+
+.homeHeroColZ1 {
+	display: table-cell;
+	width: 50%;
+	vertical-align: middle;
+	text-align: left;
+}
+
+.zoom {
+	transition: transform .2s;
+}
+
+.zoom:hover {
+	transform: scale(1.3);
+}
+
+.button_green {
+    background-color: #02BC00 !important;
+    color: white !important;
+    width: 130px;
+    height: 40px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 11px;
+    text-align: center;
+    line-height: 23px;
+    margin-top: 20px;
+}
+
+.text_white{
+    color: white !important;
+    margin-bottom: 30px !important;
+}
+
+.xidHomeTitle1 {
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	color: #02bc00;
+	letter-spacing: 1px
+}
+
+.xidHomeTitle2 {
+	font-family: montserrat, sans-serif;
+	font-weight: 600;
+	font-size: 58px;
+	color: #fff
+}
+
+.xidHomeTitle3 {
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-size: 43px;
+	color: #fff;
+	letter-spacing: 2px
+}
+.xidHomeTitle4 {
+	font-family: montserrat, sans-serif;
+	font-weight: 300;
+	font-size: 25px;
+	color: #fff;
+	letter-spacing: 1px
+}
+.xidHomeTitle5 {
+	font-family: montserrat, sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: #fff;
+	letter-spacing: 1px
+}
+
+
+
+
+
+@media only screen and (max-width:600px) {
+	.lineUpImg {
+		width: 100%
+	}
+	.configProImg,
+	.configProImgG {
+		margin: auto!important;
+	}
+    .slick-slide img,
+	.homeHeroZimg {
+		width: 71%;
+		display: none;
+		margin-left: 0;
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+	
+	.homeHeroColZ1 {
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin-top: 50px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		padding-top: 50px;
+	}
+}

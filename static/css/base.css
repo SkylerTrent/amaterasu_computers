@@ -6,8 +6,26 @@ html {
   color: white !important;
 }
 
+/* text */
+.makeTitle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color:#0d0d0d; 
+}
 
-/* from Bulma */
+.makeText {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color:#0d0d0d; 
+    margin-top: 14px;
+    margin-bottom: 14px;
+    line-height: 21px;
+}
+
+
+/* from bulma */
 .icon {
     align-items: center;
     display: inline-flex;
@@ -153,6 +171,15 @@ img {vertical-align: middle;}
   animation-name: fade;
   animation-duration: 1.5s;
 }
+
+/*Customize your pc section*/
+#customize_pc {
+    margin-top: 80px;
+    
+}
+
+
+
 
 
 @-webkit-keyframes fade {

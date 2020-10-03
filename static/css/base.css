@@ -208,6 +208,93 @@ img {vertical-align: middle;}
   }
 }
 
+@media (max-width: 1080px) {
+    #custom_pc{
+        width: 70%;
+        margin-right: 45px;
+    }
+    .makeTitle {
+         font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        color: #0d0d0d;
+        text-align: center;
+    }
+    .makeText {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 16px !important;
+        color: #0d0d0d;
+        margin-top: 14px;
+        margin-bottom: 14px;
+        line-height: 21px;
+        text-align: center;
+    }
+    
+    .button_green{
+        width: 130px;
+        height: 37px;
+        padding: 10px;
+        font-family: montserrat,sans-serif;
+        font-weight: 600;
+        font-size: 11px;
+        color: #fff;
+        background-repeat: no-repeat;
+        background-size: contain;
+        text-align: center;
+        line-height: 23px;
+        margin: 0 auto;
+        margin-top: 30px !important;
+    }
+     .xidHomeTitle1 {
+    font-family: montserrat,sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #02bc00;
+    letter-spacing: 1px;
+    zoom: 80%;
+    margin-top: 30px;
+    }
+    .xidHomeTitle2 {
+    font-family: montserrat,sans-serif;
+    font-weight: 600;
+    font-size: 58px;
+    color: #fff;
+    zoom: 80%;
+     margin-top: 30px;
+    }
+    .xidHomeTitle3 {
+    font-family: montserrat,sans-serif;
+    font-weight: 400;
+    font-size: 43px;
+    color: #fff;
+    letter-spacing: 2px;
+    zoom: 80%;
+    margin-top: 30px;
+    }
+    .text_white{
+         margin-top: 30px !important;
+    }
+}
+    
+
+/* Surface Duo */
+@media (max-width: 540px){
+    .makeText {
+        font-size: 14px !important;
+    }
+    .button_green{
+        margin: auto !important;
+        margin-top: 20px;
+        margin-bottom: 60px !important;
+    }
+    .homeHeroZimgNew2{
+        width: 72%;
+    }
+   
+}
+
+
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {

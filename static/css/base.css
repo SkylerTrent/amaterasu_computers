@@ -6,8 +6,6 @@ html {
   color: white !important;
 }
 
-    
-
 
 /* from Bulma */
 .icon {
@@ -171,6 +169,7 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 430px) {
   .prev, .next,.text,.mobil {font-size: 11px 
     }
+}
 
 
 /* -------------------------------- Media Queries */
@@ -197,5 +196,12 @@ img {vertical-align: middle;}
     }
 }
 
+@media (max-width: 600px) {
+    .button_green {
+        margin-left: 90px;
+    }
+
+    
+}
 
 

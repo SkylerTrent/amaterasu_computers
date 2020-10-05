@@ -52,7 +52,7 @@
 }
 
 .xidHomeTitle1 {
-	font-family: montserrat, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	font-size: 36px;
 	color: #02bc00;
@@ -60,32 +60,65 @@
 }
 
 .xidHomeTitle2 {
-	font-family: montserrat, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
 	font-size: 58px;
 	color: #fff
 }
 
 .xidHomeTitle3 {
-	font-family: montserrat, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	font-size: 43px;
 	color: #fff;
 	letter-spacing: 2px
 }
 .xidHomeTitle4 {
-	font-family: montserrat, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
 	font-size: 25px;
 	color: #fff;
 	letter-spacing: 1px
 }
 .xidHomeTitle5 {
-	font-family: montserrat, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
 	font-size: 18px;
 	color: #fff;
 	letter-spacing: 1px
+}
+
+.sysTitle{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    color: #0d0d0d;
+    font-weight: 500;
+}
+
+.focusTitle {
+    font-family:'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #0d0d0d;
+    margin-top: 14px;
+    margin-bottom: 18px;
+}
+
+.focus_txt {
+    font-weight: 500;
+    font-size: 14px;
+    color: #0d0d0d;
+    padding-right: 9%;
+    line-height: 21px;
+}
+}
+
+.focus_p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 

@@ -175,8 +175,48 @@ img {vertical-align: middle;}
 /*Customize your pc section*/
 #customize_pc {
     margin-top: 80px;
+    margin-bottom: 70px;
     
 }
+
+/* PC/product select */
+#pc_selection {
+    background-color: black;
+    
+}
+
+.pc_items {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    height: 400px;
+    width: 474px;
+    overflow: hidden;
+}
+
+/* PC/product select button*/
+.prod_select_button {
+    margin-top: 45px;
+    
+}
+
+
+
+/*center items*/
+.center_item {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -209,10 +249,18 @@ img {vertical-align: middle;}
 }
 
 @media (max-width: 1080px) {
-    #custom_pc{
+    .custom_pc{
         width: 70%;
         margin-right: 45px;
+      
     }
+
+    .pc_sel_mobil{
+         width: 70%;
+         margin-left:25px;
+         margin-top: 55px;
+    }
+
     .makeTitle {
          font-family: 'Montserrat', sans-serif;
         font-weight: 500;
@@ -239,12 +287,10 @@ img {vertical-align: middle;}
         font-weight: 600;
         font-size: 11px;
         color: #fff;
-        background-repeat: no-repeat;
-        background-size: contain;
         text-align: center;
         line-height: 23px;
         margin: 0 auto;
-        margin-top: 30px !important;
+        margin-top: 50px !important;
     }
      .xidHomeTitle1 {
     font-family: montserrat,sans-serif;
@@ -271,9 +317,6 @@ img {vertical-align: middle;}
     letter-spacing: 2px;
     zoom: 80%;
     margin-top: 30px;
-    }
-    .text_white{
-         margin-top: 30px !important;
     }
 }
     

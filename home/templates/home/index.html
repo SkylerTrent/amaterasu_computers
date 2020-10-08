@@ -1,8 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
 
-
-
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
@@ -130,6 +128,75 @@ WARRANTY</h2></div><div class="homeHeroColZ1"><a href=""><img class="zoom homeHe
         </div>
     </div>
 </div>
+<!-- Site footer refrenced from codepen.com-->
+<!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links" id="About">
+              <li><a class="text_white focus_p" href="index.html">Home</a></li>
+              <li><a class="text_white focus_p" href="#gallery">Desktops</a></li>
+              <li><a class="text_white focus_p " href="#contact">Hardware</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <h6>Our Mission</h6>
+            <p class="focus_p">
+              Amaterasu Computers driving philosophy is to deliver to its customers 
+              cutting-edge technology and performance along with rock-solid support. 
+              As a validation of Amaterasu Computer’s success the company has retained an
+               “A+” rating from the Better Business Bureau.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <h6>About Us</h6>
+            <p class="text-justify focus_p">
+              Amaterasu Computers has been in business since 2002, in that time its reputation as a premiere system integrator has grown exponentially.
+              Amaterasu Computers produces some of the fastest gaming computers in the market. It is constantly pushing the boundaries of performance so
+              that its customers will enjoy a gaming experience unmatched by any of Amaterasu Computers’s competitors.
+            </p>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">
+              Copyright &copy; Educational Purpose's only.
+              <a href="#">K&P Photography</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li>
+                <a class="facebook" href="https://www.facebook.com/"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a class="twitter" href="https://www.twitter.com/"
+                  ><i class="fab fa-twitter-square"></i
+                ></a>
+              </li>
+              <li>
+                <a class="dribbble" href="https://www.dribble.com/"
+                  ><i class="fas fa-basketball-ball"></i
+                ></a>
+              </li>
+              <li>
+                <a class="linkedin" href="https://www.linkdin.com/"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+<!-- Site footer -->
 
 
 
@@ -167,5 +234,6 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 </script>
-
 {% endblock %}
+
+

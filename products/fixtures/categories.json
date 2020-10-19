@@ -1,0 +1,74 @@
+[
+   {
+      "pk":1,
+      "model":"products.category",
+      "fields":{
+         "name":"cpu",
+         "friendly_name":"CPU's"
+      }
+   },
+   {
+      "pk":2,
+      "model":"products.category",
+      "fields":{
+         "name":"graphic_card",
+         "friendly_name":"Graphics Cards"
+      }
+   },
+   {
+      "pk":3,
+      "model":"products.category",
+      "fields":{
+         "name":"ram",
+         "friendly_name":"Ram"
+      }
+   },
+   {
+      "pk":4,
+      "model":"products.category",
+      "fields":{
+         "name":"motherboard",
+         "friendly_name":"Motherboards"
+      }
+       },
+   {
+      "pk":5,
+      "model":"products.category",
+      "fields":{
+         "name":"case",
+         "friendly_name":"Cases"
+      }
+   },
+   {
+      "pk":6,
+      "model":"products.category",
+      "fields":{
+         "name":"hard_drive",
+         "friendly_name":"Hard Drives"
+      }
+   },
+   {
+      "pk":7,
+      "model":"products.category",
+      "fields":{
+         "name":"solid_state",
+         "friendly_name":"Solid State Drives"
+      }
+   },
+   {
+      "pk":8,
+      "model":"products.category",
+      "fields":{
+         "name":"power_supply",
+         "friendly_name":"New Arrivals"
+      }
+   },
+   {
+      "pk":9,
+      "model":"products.category",
+      "fields":{
+         "name":"pre_built",
+         "friendly_name":"Prebuilt PC"
+      }
+   }
+]

@@ -1,0 +1,286 @@
+[
+   {
+      "pk":1,
+      "model":"products.product",
+      "fields":{
+         "name":"Ryzen 3 1200",
+         "description":"Ryzen 3 1200 is a 64-bit quad-core low-end performance x86 desktop microprocessor introduced by AMD in late 2017. This processor is based on AMD's Zen microarchitecture and is fabricated on a 14 nm process. The 1200 operates at a base frequency of 3.1 GHz with a TDP of 65 W and a Boost frequency of 3.4 GHz.",
+         "price":109.00,
+         "category":1,
+         "image_url":"https://www.meanoldmen.net/wp-content/uploads/2018/04/ryzen31200.jpg",
+         "image":"ry3_1200.jpg"
+      }
+   },
+   {
+      "pk":2,
+      "model":"products.product",
+      "fields":{
+         "name":"Ryzen 3 3100",
+         "description":"Designed for high-performance gaming and multitasking, the Ryzen 3 3100 Quad-Core AM4 Processor from AMD has a maximum turbo frequency of 3.9 GHz and supports PCIe 4.0 bandwidth. Additionally, this processor features four cores with eight threads in an AM4 socket with 18MB of cache memory.",
+         "price":99.00,
+         "category":1,
+         "image_url":"https://www.pricerunner.dk/product/1200x630/3000352059/AMD-Ryzen-3-3100-3.6GHz-Socket-AM4-Box.jpg",
+         "image":"ry3_3100.jpg"
+      }
+   },
+   {
+      "pk":3,
+      "model":"products.product",
+      "fields":{
+         "name":"Ryzen 3 3300X",
+         "description":"Designed for high-performance gaming and multitasking, the Ryzen 3 3300X Quad-Core AM4 Processor from AMD has a base clock speed of 3.8 GHz, a maximum turbo frequency of 4.3 GHz, and supports PCIe 4.0 bandwidth. ... It is also unlocked, meaning it can be overclocked past its maximum turbo frequency.",
+         "price":120.00,
+         "category":1,
+         "image_url":"https://static.bhphoto.com/images/images1000x1000/1588841160_1558666.jpg",
+         "image":"ry3_3300x.jpg"
+      }
+   },
+   {
+      "pk":4,
+      "model":"products.product",
+      "fields":{
+         "name":"Ryzen 5 3600XT",
+         "description":"As you can see, the Ryzen 5 3600XT is a six-core, 12-thread desktop processor with a base clock speed of 3.8GHz, a max boost clock of 4.5GHz (up from 4.4GHz in the Ryzen 5 3600X version), an L2 cache of 3MB and an L3 cache of 32MB.",
+         "price":249.00,
+         "category":1,
+         "image_url":"https://www.amd.com/system/files/2020-06/450039-amd-ryzen-5-3rd-gen-PIB-1260x709_0.png",
+         "image":"ry5_3600xt.jpg"
+      }
+   },
+   {
+      "pk":5,
+      "model":"products.product",
+      "fields":{
+         "name":"Ryzen 7 3800XT",
+         "description":"The AMD Ryzen 7 3800XT is a fast desktop processor with 8 cores (octa core) based on the Zen 2 architecture. At launch it is the fastest 8-core-CPU of the Matisse series. The 3800XT clocks from 3.9 GHz (base) up to 4.7 GHz (Turbo). All eight cores can reach up to 4.2 GHz.",
+         "price":399.00,
+         "category":1,
+         "image_url":"https://static.bhphoto.com/images/images1000x1000/1594118786_1570791.jpg",
+         "image":"ry7_3800xt.jpg"
+      }
+   },
+   {
+      "pk":6,
+      "model":"products.product",
+      "fields":{
+         "name":"Ryzen 9 3950X",
+         "description":"The AMD Ryzen 9 3950X 3.5 GHz 16-Core AM4 Processor is a powerful 16-core processor with 32 threads, designed for socket AM4 motherboards. ... It has a base clock speed of 3.5 GHz and can reach a max boost clock speed of 4.7 GHz.",
+         "price":30.99,
+         "category":9,
+         "image_url":"https://www.bhphotovideo.com/images/images1000x1000/amd_ryzen_9_3950x_3_8_1507038.jpg",
+         "image":"ry9_3950x.jpg"
+      }
+   },
+   {
+      "pk":7,
+      "model":"products.product",
+      "fields":{
+         "name":"Intel Core i5-9600k",
+         "description":"The i5-9600K operates at a 3.7 GHz with a TDP of 95 W and a Turbo Boost frequency of up to 4.6 GHz. This chip supports up to 64 GiB of dual-channel DDR4-2666 memory and incorporates Intel's UHD Graphics 630 IGP operating at 350 MHz with a burst frequency of 1.15 GHz. ",
+         "price":260.00,
+         "category":1,
+         "image_url":"https://image.coolblue.be/max/500x500/products/1380781",
+         "image":"i5_9600k.jpg"
+      }
+   },
+   {
+      "pk":8,
+      "model":"products.product",
+      "fields":{
+         "name":"Intel Core i7-9700k",
+         "description":"The Core i7-9700K 3.6 GHz Eight-Core LGA 1151 Processor from Intel is designed for gaming, creating, and productivity. It has a base clock speed of 3.6 GHz and comes with features such as Intel Optane Memory support, Intel Boot Guard, Intel VT-x and Intel VT-d virtualization technologies, Intel TSX-NI, SSE4.",
+         "price":401.41,
+         "category":1,
+         "image_url":"https://www.komplett.dk/img/p/1200/1097873.jpg",
+         "image":"i7_9700k.jpg"
+      }
+   },
+   {
+      "pk":9,
+      "model":"products.product",
+      "fields":{
+         "name":"Intel Core i3_9100f",
+         "description":"Core i3-9100F is a 64-bit quad-core entry-level performance x86 desktop microprocessor introduced by Intel in early 2019. This chip, which is based on the Coffee Lake microarchitecture, is fabricated on Intel's 3rd generation 14 nm++ process. This processor, which has a base frequency of 3.6 GHz with a TDP of 65 Watts and a turbo boost of up to 4.2. This chip supports up to 64 GiB of dual-channel DDR4-2400 ECC memory.",
+         "price":84.73,
+         "category":1,
+         "image_url":"https://www.bhphotovideo.com/images/images1500x1500/intel_bx80684i39100f_core_i3_i3_9100f_quad_core_1514726.jpg",
+         "image":"i3_9100f.jpg"
+      }
+   },
+   {
+      "pk":10,
+      "model":"products.product",
+      "fields":{
+         "name":"Intel Core i7 10700k ",
+         "description":"Additionally, this processor features 8 cores with 16 threads in an LGA 1200 socket, has 16MB of cache memory, and 16 PCIe lanes. ... Graphically, the Core i7-10700K uses the integrated Intel UHD Graphics 630 chipset, which has a base frequency of 350 MHz and a dynamic frequency of 1.2 GHz.",
+         "price":470.85,
+         "category":1,
+         "image_url":"https://microless.com/cdn/products/1451778a094a50c1a963877faada3181-hi.jpg",
+         "image":"i7_10700k.jpg"
+      }
+   },
+   {
+      "pk":11,
+      "model":"products.product",
+      "fields":{
+         "name":"Intel Core i5 10600k",
+         "description":"With six cores and 12 threads—running at 4.5GHz on all cores, and up to 4.8GHz on a single core—the Core i5 10600K has a great deal of potential on all counts. ... Like the other K-series CPUs of the Comet Lake generation, the 10600K has a 125W TDP, up from the 95W of the previous six-core i5 chips.",
+         "price":316.00,
+         "category":1,
+         "image_url":"https://static.bhphoto.com/images/images1000x1000/1589327172_1558676.jpg",
+         "image":"i5_10600k.jpg"
+      }
+   },
+   {
+      "pk":12,
+      "model":"products.product",
+      "fields":{
+         "name":"Intel Core i3 10100",
+         "description":"The Intel Core i3-10100 is a desktop processor with 4 cores, launched in April 2020. It is part of the Core i3 lineup, using the Comet Lake architecture with Socket 1200. Thanks to Intel Hyper-Threading the core-count is effectively doubled, to 8 threads. Core i3-10100 has 6MB of L3 cache and operates at 3.6 GHz by default, but can boost up to 4.3 GHz,",
+         "price":130.00,
+         "category":1,
+         "image_url":"https://www.komplett.dk/img/p/800/1155709_2.jpg",
+         "image":"i3_10100.jpg"
+      }
+   },
+   {
+      "pk":13,
+      "model":"products.product",
+      "fields":{
+         "name":"RX 5600 XT",
+         "description":"The RX 5600 XT graphics card is powered by the groundbreaking 7nm RDNA architecture. RDNA architecture is engineered for the next generation of high-performance gaming. It's the DNA that powers your games, the DNA that brings your games to life, the DNA that keeps evolving.",
+         "price":378.00,
+         "category":2,
+         "image_url":"https://www.guru3d.com/index.php?ct=articles&action=file&id=58141",
+         "image":"rx_5600xt.jpg"
+      }
+   },
+   {
+      "pk":14,
+      "model":"products.product",
+      "fields":{
+         "name":"RX 5700 XT",
+         "description":"RX 5700 XT employs a fully-enabled version of the Navi GPU—no part of the chip is turned off to improve yields or leave room for a more resource-rich model in the future. It exposes 40 RDNA Compute Units, each with 64 Stream processors, totaling 2,560 ALUs across the processor.",
+         "price":568.00,
+         "vram":"8gb",
+         "category":2,
+         "image_url":"https://images-na.ssl-images-amazon.com/images/I/71i2Kqc1t2L._AC_SX466_.jpg",
+         "image":"rx_5700xt.jpg"
+      }
+   },
+   {
+      "pk":15,
+      "model":"products.product",
+      "fields":{
+         "name":"Corsair Vengeance RGB Pro",
+         "description":"Powerful CORSAIR iCUE software brings your system to life with dynamic RGB lighting control, synchronized across all your iCUE compatible products, including memory, fans, RGB LED light strips, keyboards, mice and more.",
+         "price":48.99,
+         "size":"8gb",
+         "speed":"3200mhz",
+         "category":3,
+         "image_url":"https://www.powerplanetonline.com/cdnassets/corsair_vengeance_16gb_ddr4_3000mhz-_rgb_blanco_01_l.jpg",
+         "image":"corsair_rgb_pro.jpg"
+      }
+   },
+   {
+      "pk":16,
+      "model":"products.product",
+      "fields":{
+         "name":"GSkill Trident Z",
+         "description":"Trident Z Means Overclocking SKILL's unparalleled selection process and a custom engineered ten-layer PCB offering maximum signal stability; and every single kit is rigorously tested for reliability, compatibility, and performance across a wide range of motherboards.",
+         "price":65.99,
+         "size":"8gb",
+         "speed":"3200mhz",
+         "category":3,
+         "image_url":"https://www.pricerunner.dk/product/1200x630/1642851727/G.Skill-Trident-Z-RGB-DDR4-3200MHz-2x8GB-(F4-3200C16D-16GTZR).jpg",
+         "image":"trident_z.jpg"
+      }
+   },
+   {
+      "pk":17,
+      "model":"products.product",
+      "fields":{
+         "name":"ASUS ROG Strix X570-F Gaming",
+         "description":"The ROG Strix X570-F Gaming motherboard delivers the epitome of ROG experience with a compelling mix of features, comprehensive cooling capabilities and undeniable style that provide the ideal foundation for building a powerful ATX gaming system. Topped with futuristic new design aesthetics with onboard RGB lighting and a cyber-text pattern, the ROG Strix X570-F Gaming gives you everything you need to build a formidable weapon to rise above the rest. ",
+         "price":301.00,
+         "chipset":"amd",
+         "category":4,
+         "image_url":"https://www.komplett.dk/img/p/1200/1132533.jpg",
+         "image":"rog_strix.jpg"
+      }
+   },
+   {
+      "pk":18,
+      "model":"products.product",
+      "fields":{
+         "name":"MSI MEG X570",
+         "description":"With this MEG X570 motherboard from MSI, you get the ultimate gaming experience with excellent graphics. The motherboard is made in a brand new design and has an exceptionally good performance. With the free 10G Super LAN card, you get extreme download speeds, whether downloading a game or watching a 4K video on the web! You can even customize and create your own color scheme from millions of colors and predefined effects with the MSI Mystic Light utility.",
+         "price":1032.34,
+         "chipset":"amd",
+         "category":4,
+         "image_url":"https://cdn.lomax.dk/images/t_item_max/f_auto/v1577708619/produkter/70074820/msi-meg-x570-godlike-bundkort.jpg",
+         "image":"msi_meg.jpg"
+      }
+   },
+   {
+      "pk":19,
+      "model":"products.product",
+      "fields":{
+         "name":"Asus Rog Maximus XII Formula ",
+         "description":"Now your child can sling webs next to his favorite wall crawler with this Spider-Man pillow buddy. shaped like everyone's favorite web head measures 15x9x20\"H Polyester with polyester fill. Spot clean. Imported.",
+         "price":401.23,
+         "chipset":"intel",
+         "category":4,
+         "image_url":"https://www.komplett.dk/img/p/2362/1158106.jpg",
+         "image":"rog_formula.jpg"
+      }
+   },
+   {
+      "pk":20,
+      "model":"products.product",
+      "fields":{
+         "name":"ASUS ROG Strix Z490-F GAMING",
+         "description":"The ROG Strix Z490-F Gaming motherboard is designed to cope with the demands of 10th Generation Intel® Core™ processors, with boosted power delivery and an optimized cooling design providing more surface area for heat dissipation. ROG Strix Z490-F Gaming features AI enhancements and intuitive dashboards to help you overclock and tweak various parameters easily. Performance aside, ROG Strix Z490-F Gaming catches the eye, sporting cyberpunk inspired aesthetics including mirrored stainless steel finish.",
+         "price":270.00,
+         "category":4,
+         "image_url":"https://www.komplett.dk/img/p/2362/1158108.jpg",
+         "image":"rog_strixz490.jpg"
+      }
+   },
+   {
+      "pk":21,
+      "model":"products.product",
+      "fields":{
+         "name":"NZXT H210 ",
+         "description":"NZXT H210 - Mini-ITX PC Gaming Case - Front I/O USB Type-C Port - Tempered Glass Side Panel - Cable Management System - Water-Cooling Ready - Radiator Bracket - Steel Construction - White/Black",
+         "price":80.99,
+         "category":5,
+         "image_url":"https://c1.neweggimages.com/ProductImageCompressAll1280/11-146-310-V02.jpg",
+         "image":"nzxt_mini_itx.jpg"
+      }
+   },
+   {
+      "pk":22,
+      "model":"products.product",
+      "fields":{
+         "name":"LIAN LI TU150",
+         "description":"The TU150 come in at 312mm height, 375mm depth, and 203mm width. This is quite a compact chassis, and it is designed to be as tiny as possible while offering a robust platform for a mini gaming rig. The motherboard fitment is Mini-ITX or DTX compatible.",
+         "price":116.99,
+         "category":5,
+         "image_url":"https://c1.neweggimages.com/ProductImageCompressAll1280/AFST_132138818623295274DfGbABoTt3.jpg",
+         "image":"lian_li_mini_itx.jpg"
+      }
+   },
+   {
+      "pk":23,
+      "model":"products.product",
+      "fields":{
+         "name":"Dickies Heavyweight Long-Sleeve Pocket Tee",
+         "description":"When your workday calls for a heavyweight tee, grab this long-sleeve one from Dickies and enjoy industrial-strength comfort from the brand you trust.  chest pocket tagless back neck taped neck and shoulder seams cotton washable imported",
+         "price":29.99,
+         "category":5,
+         "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0927201317061305M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+         "image":"DP0927201317061305M.jpg"
+      }
+   }
+]

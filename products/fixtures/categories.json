@@ -70,5 +70,13 @@
          "name":"pre_built",
          "friendly_name":"Prebuilt PC"
       }
+     },
+   {
+      "pk":10,
+      "model":"products.category",
+      "fields":{
+         "name":"monitor",
+         "friendly_name":"Monitors"
+      }
    }
 ]

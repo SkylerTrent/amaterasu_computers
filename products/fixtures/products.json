@@ -282,5 +282,20 @@
          "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0927201317061305M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
          "image":"DP0927201317061305M.jpg"
       }
-   }
+   },
+    {
+      "pk":24,
+      "model":"products.product",
+      "fields":{
+         "name":"AOC 27G2U",
+         "screen_size":"27in",
+         "refresh_rate":"144hz",
+         "resolution":"1080p",
+         "description":"The AOC 27G2U 27 gaming screen gives you an ace up your sleeve for e-sports. With a response time of 1 ms and a frame rate of 144 Hz, you can easily outmaneuver your enemies. With more than twice as many frames as with a normal screen, victory is your.",
+         "price":175.00,
+         "category":10,
+         "image_url":"https://www.elgiganten.dk/image/dv_web_D180001002555787/128514/aoc-27g2u-27-gaming-skaerm.jpg?$fullsize$",
+         "image":"DP0927201317061305M.jpg"
+      }
+    }
 ]

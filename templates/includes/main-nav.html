@@ -6,7 +6,6 @@
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
                 <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
                 <a href="" class="dropdown-item ">By Category</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
@@ -17,24 +16,23 @@
                 Hardware
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">CPU</a>
-                <a href="" class="dropdown-item">Graphics Card</a>
-                <a href="" class="dropdown-item">Ram</a>
-                <a href="" class="dropdown-item">Motherboard</a>
-                <a href="" class="dropdown-item">Power Supply</a>
-                <a href="" class="dropdown-item">Hard Drive</a>
-                <a href="" class="dropdown-item">Solid State Drive</a>
-                <a href="" class="dropdown-item">Case</a>
+                <a href="{% url 'products' %}?category=cpu" class="dropdown-item">CPU</a>
+                <a href="{% url 'products' %}?category=graphic_card" class="dropdown-item">Graphics Card</a>
+                <a href="{% url 'products' %}?category=ram" class="dropdown-item">Ram</a>
+                <a href="{% url 'products' %}?category=motherboard" class="dropdown-item">Motherboard</a>
+                <a href="{% url 'products' %}?category=power_supply" class="dropdown-item">Power Supply</a>
+                <a href="{% url 'products' %}?category=hard_drive" class="dropdown-item">Hard Drive</a>
+                <a href="{% url 'products' %}?category=solid_state" class="dropdown-item">Solid State Drive</a>
+                <a href="{% url 'products' %}?category=case" class="dropdown-item">Case</a>
 
             </div>
         </li>
 
-       
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <li>
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}?category=gaming_pc"  data-toggle="" aria-haspopup="true" aria-expanded="false">
                 Gaming PC's
             </a>
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Special Offers
-            </a>
+            
+       </li>
     </ul>
 </div>

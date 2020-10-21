@@ -49,7 +49,14 @@ html {
     padding-right: 17%;
 }
 
+/*padding*/
+.p-top {
+    padding-top: 25px !important;
+}
 
+.p-bottom {
+    padding-bottom: 25px !important;
+}
 /* from bulma */
 .icon {
     align-items: center;
@@ -123,6 +130,20 @@ img {vertical-align: middle;}
   position: relative;
   margin: auto;
 
+}
+
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
+}
+
+.card-body {
+    flex: 0 !important;
 }
 
 /* Next & previous buttons */
@@ -261,6 +282,9 @@ img {vertical-align: middle;}
 .video_image {
     width: 100%;
 }
+
+
+
 
 
 
@@ -427,6 +451,7 @@ img {vertical-align: middle;}
         margin-right: 45px;
       
     }
+
 
     .pc_sel_mobil{
          width: 70%;

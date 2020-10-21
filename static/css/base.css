@@ -534,11 +534,6 @@ img {vertical-align: middle;}
     }
 }
 
-@media (min-width: 992px) {
-.header-container {
-    padding-top: 148px !important;
-    }
-} 
 
 /* Surface Duo */
 @media (max-width: 540px){
@@ -570,6 +565,9 @@ img {vertical-align: middle;}
     .header-container {
         padding-top: 164px;
     }
+    .header-container {
+    padding-top: 148px !important;
+    }
 }
 
 @media (max-width: 600px) {
@@ -578,6 +576,17 @@ img {vertical-align: middle;}
     }
 
     
+}
+
+/* pad the top a bit when navbar is collapsed on mobile */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
+    }
 }
 
 

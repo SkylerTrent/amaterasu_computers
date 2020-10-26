@@ -6,6 +6,10 @@ html {
     padding: 0 !important;
 }
 
+#nav_img {
+    z-index: 9;
+    
+}
 
 
 .carousel-control{
@@ -173,6 +177,7 @@ img {vertical-align: middle;}
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
+
 
 /* Caption text */
 .text {
@@ -566,7 +571,7 @@ img {vertical-align: middle;}
         padding-top: 164px;
     }
     .header-container {
-    padding-top: 148px !important;
+    padding-top: 105px !important;
     }
 }
 

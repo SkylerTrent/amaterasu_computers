@@ -166,7 +166,7 @@ WARRANTY</h2></div><div class="homeHeroColZ1"><a href=""><img class="zoom homeHe
           <div class="col-md-8 col-sm-6 col-xs-12">
             <p class="copyright-text">
               Copyright &copy; Educational Purpose's only.
-              <a href="#">K&P Photography</a>
+              <a href="#">Amaterasu Computers</a>
             </p>
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12">
@@ -197,43 +197,11 @@ WARRANTY</h2></div><div class="homeHeroColZ1"><a href=""><img class="zoom homeHe
       </div>
     </footer>
 <!-- Site footer -->
+{% endblock %}
 
-
-
-
-
-
-
-
-
-   <script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "NONE";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
+{% block postloadjs %}
+{{ block.super }}
+{% include 'home/includes/carasel_script.html' %}
 {% endblock %}
 
 

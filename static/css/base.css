@@ -1,3 +1,4 @@
+
 html {
     height: 100%;
 }
@@ -10,6 +11,11 @@ html {
 .carousel-control{
   color: white !important;
 }
+
+.card-body {
+    flex: 0 !important;
+}
+
 
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
@@ -220,9 +226,6 @@ img {vertical-align: middle;}
 	z-index: -1;
 }
 
-.card-body {
-    flex: 0 !important;
-}
 
 /* Next & previous buttons */
 .prev, .next {
@@ -362,7 +365,78 @@ img {vertical-align: middle;}
     width: 100%;
 }
 
+.header-container {
+    padding-top: 140px !important;
+    }
 
+/* login form */
+.login-dark {
+  height:1000px;
+  background:white url(../../media/slide_4_background.jpg) !important;
+  background-size:cover;
+  position:relative;
+}
+
+.login-dark form {
+  max-width:320px;
+  width:90%;
+  background-color:white;
+  padding:40px;
+  border-radius:4px;
+  transform:translate(-50%, -50%);
+  position:absolute;
+  top:50%;
+  left:50%;
+  color:black;
+  box-shadow:3px 3px 4px rgba(0,0,0,0.2);
+}
+
+.login-dark .illustration {
+  text-align:center;
+  padding:15px 0 20px;
+  font-size:100px;
+  color:black;
+}
+
+.login-dark form .form-control {
+  background:none;
+  border:none;
+  border-bottom:1px solid #434a52;
+  border-radius:0;
+  box-shadow:none;
+  outline:none;
+  color:inherit;
+}
+
+.login-dark form .btn-primary {
+  background:black;
+  border:none;
+  border-radius:4px;
+  padding:11px;
+  box-shadow:none;
+  margin-top:26px;
+  text-shadow:none;
+  outline:none;
+}
+
+.login-dark form .btn-primary:hover, .login-dark form .btn-primary:active {
+  background:#214a80;
+  outline:none;
+}
+
+.login-dark form .forgot {
+  display:block;
+  text-align:center;
+  font-size:12px;
+  color:white;
+  opacity:0.9;
+  text-decoration:none;
+}
+
+.login-dark form .forgot:hover, .login-dark form .forgot:active {
+  opacity:1;
+  text-decoration:none;
+}
 
 /*Footer*/
 /* Site footer referenced from https://codepen.io/scanfcode/pen/MEZPNd-->*/
@@ -657,5 +731,4 @@ img {vertical-align: middle;}
         height: calc(100vh - 116px);
     }
 }
-
 

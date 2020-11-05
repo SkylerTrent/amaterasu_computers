@@ -20,11 +20,7 @@
                 {% for item in bag_items %}
                     <div class="row">
                         <div class="col-3 my-1">
-                            {% if item.product.image %}
-                            <img class="w-100" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
-                            {% else %}
-                            <img class="w-100" src="{{ MEDIA_URL }}noimage.png" alt="{{ item.product.name }}">
-                            {% endif %}
+                            <img class="w-100" src="{{ item.product.image.url }}">
                         </div>
                         <div class="col-9">
                             <p class="my-0"><strong>{{ item.product.name }}</strong></p>
@@ -46,9 +42,9 @@
                         </p>
                     {% endif %}
                     <a href="{% url 'view_bag' %}" class="btn btn-black btn-block rounded-0">
-                        <span class="text-uppercase" style="color: white;">Secure Checkout</span>
-                                        <span style ="color: #02BC00 " class="icon">
-                                            <i class="fas fa-lock"></i>
+                        <span class="text-uppercase">Go To Secure Checkout</span>
+                        <span class="icon">
+                            <i class="fas fa-lock"></i>
                         </span>
                     </a>
                 </div>

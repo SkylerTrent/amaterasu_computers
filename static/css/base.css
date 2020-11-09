@@ -33,6 +33,10 @@ html {
     background:#02BC00 !important;
 }
 
+.login-request-link {
+    color: #02BC00 !important;
+}
+
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
     width: 0; 

@@ -13,7 +13,7 @@
     <div id="myCarousel" class="carousel slide item " data-ride="carousel">
     <div class="mySlides ">
     <div class="homeHeroNew2 homeHero-1" style="background-image: url(media/slide_4_background.jpg)">
-            <div class="homeHeroRowZ"><div class="homeHeroColZ1"><h3 class="xidHomeTitle3 ">MONTHLY GIVE AWAY</h3><h1 class="xidHomeTitle1 ">THIS MONTH, YOU GET TO DECIDE. DON'T FORGET TO CAST YOUR VOTE!</h1><div class="zoom button button_green"><a class="text_white" href="{% url 'poll' %}">VOTE NOW</a></div></div><div class="homeHeroColZ1"><a href=""><img class="zoom homeHeroZimgNew2" src="media/slide_1_add_overlay.jpg"/></a></div>          </div>
+            <div class="homeHeroRowZ"><div class="homeHeroColZ1"><h3 class="xidHomeTitle3 ">MONTHLY GIVE AWAY</h3><h1 class="xidHomeTitle1 ">THIS MONTH, YOU GET TO DECIDE. DON'T FORGET TO CAST YOUR VOTE!</h1><div class="zoom button button_green"><a class="text_white" href="{% url 'poll' %}">VOTE NOW</a></div></div><div class="homeHeroColZ1"><a href="{% url 'poll' %}"><img class="zoom homeHeroZimgNew2" src="media/slide_1_add_overlay.jpg"/></a></div>          </div>
         </div>
     </div>
     </div>
@@ -21,7 +21,7 @@
       <div class="mySlides">
   <div class="numbertext">2 / 3</div>
  <div class="homeHeroNew2 homeHero-1" style="background-image: url(media/slide_4_background.jpg) !important;">
-            <div class="homeHeroRowZ"><div class="homeHeroColZ1"><h1 class="xidHomeTitle1 no-margin">GEFORCE RTX 30 SERIES</h1><h3 class="xidHomeTitle3 no-margin">THE ULTIMATE PLAY</h3><h5 class="xidHomeTitle5 no-margin">GeForce RTX™ 30 Series GPUs deliver the ultimate performance for gamers and creators.</h5><div class="zoom  button_green"><a href="" class="text_white">SHOP NOW</a></div></div><div class="homeHeroColZ1"><a href=""><img class="zoom homeHeroZimgNew2" src="media/slide_2_add_overlay.jpg"/></a></div>          </div>
+            <div class="homeHeroRowZ"><div class="homeHeroColZ1"><h1 class="xidHomeTitle1 no-margin">GEFORCE RTX 30 SERIES</h1><h3 class="xidHomeTitle3 no-margin">THE ULTIMATE PLAY</h3><h5 class="xidHomeTitle5 no-margin">GeForce RTX™ 30 Series GPUs deliver the ultimate performance for gamers and creators.</h5><div class="zoom  button_green"><a href="{% url 'products' %}?category=graphic_card" class="text_white">SHOP NOW</a></div></div><div class="homeHeroColZ1"><a href="{% url 'products' %}?category=graphic_card"><img class="zoom homeHeroZimgNew2" src="media/slide_2_add_overlay.jpg"/></a></div>          </div>
         </div>
 </div>
     </div>
@@ -30,7 +30,7 @@
   <div class="numbertext">3 / 3</div>
   <div class="homeHeroNew2 homeHero-1" style="background-image: url(media/slide_4_background.jpg) !important;">
             <div class="homeHeroRowZ"><div class="homeHeroColZ1"><h1 class="xidHomeTitle1 no-margin">HAND-BUILT TO PERFECTION</h1><h2 class="xidHomeTitle2 no-margin">LIFETIME
-WARRANTY</h2></div><div class="homeHeroColZ1"><a href=""><img class="zoom homeHeroZimgNew2" src="media/slide_3_background.jpg"/></a></div>          </div>
+WARRANTY</h2></div><div class="homeHeroColZ1"><a href="{% url 'products' %}?category=gaming_pc"><img class="zoom homeHeroZimgNew2" src="media/slide_3_background.jpg"/></a></div>          </div>
         </div>
     </div>
   </div>
@@ -57,7 +57,7 @@ WARRANTY</h2></div><div class="homeHeroColZ1"><a href=""><img class="zoom homeHe
  <div id="customize_pc" class="container-fluid">
     <div class="row">
         <div class="col-sm-12 col-lg-6">
-            <img src="media/custom_pc.jpg" class="float-right zoom custom_pc" alt="">
+            <img src="media/custom_pc.jpg" class="float-right zoom custom_pc" alt="Custom pc">
         </div>
         <div class="col-sm-12 col-lg-4 my-auto">
             <div class="makeTitle">GET YOUR AMATERASU GAMING PC</div> 
@@ -70,11 +70,11 @@ WARRANTY</h2></div><div class="homeHeroColZ1"><a href=""><img class="zoom homeHe
  <div id="pc_selection" class="container-fluid" >
     <div class="row">
         <div class="col-sm-12 col-lg-6">
-            <img src="media/parts.jpg" class=" zoom pc_sel_mobil mx-auto d-block" alt="">
+            <img src="media/parts.jpg" class=" zoom pc_sel_mobil mx-auto d-block" alt="collage of pc parts">
             <div class="zoom button_green center_item" style="margin-top: 45px !important;"><a href="{% url 'products' %}?category=graphic_card,cpu,case,hard_drive,solid_state,ram,motherboard,power_supply" class="text_white">Hardware</a></div>
         </div>
         <div class="col-sm-12 col-lg-6 my-auto">
-           <img  src="media/gigabyte_monitor.jpg" class=" zoom pc_sel_mobil mx-auto d-block" alt="">
+           <img  src="media/gigabyte_monitor.jpg" class=" zoom pc_sel_mobil mx-auto d-block" alt="pc monitor">
             <div  class="zoom button_green center_item" style="margin-top: 45px !important;"><a href="{% url 'products' %}?category=monitor" class="text_white">Monitor's</a></div>
         </div>
     </div>
@@ -86,7 +86,7 @@ WARRANTY</h2></div><div class="homeHeroColZ1"><a href=""><img class="zoom homeHe
     </div>
     <div class="row p-bottom" >
         <div class="col-sm-12 col-lg-4" >
-            <img class="focus_img center_item" src="media/focus_craftsmanship.jpg" alt="">
+            <img class="focus_img center_item" src="media/focus_craftsmanship.jpg" alt="company focus image 3">
             <div>
                 <h3 class="focusTitle text-center">CRAFTSMANSHIP</h3>
             </div>
@@ -95,7 +95,7 @@ WARRANTY</h2></div><div class="homeHeroColZ1"><a href=""><img class="zoom homeHe
             </div>
         </div>
         <div class="col-sm-12 col-lg-4">
-            <img class="focus_img center_item" src="media/focus_testing.jpg" alt="">
+            <img class="focus_img center_item" src="media/focus_testing.jpg" alt="company focus image 2">
             <div>
                 <h3 class="focusTitle text-center">TESTING</h3>
             </div>
@@ -104,7 +104,7 @@ WARRANTY</h2></div><div class="homeHeroColZ1"><a href=""><img class="zoom homeHe
             </div>
         </div>
         <div class="col-sm-12 col-lg-4">
-            <img class="focus_img center_item" src="media/focus_support.jpg" alt="">
+            <img class="focus_img center_item" src="media/focus_support.jpg" alt="company focus image">
             <div>
                 <h3 class="focusTitle text-center">SUPPORT</h3>
             </div>
@@ -124,7 +124,7 @@ WARRANTY</h2></div><div class="homeHeroColZ1"><a href=""><img class="zoom homeHe
            </div>
         </div>
         <div class="col-sm-12 col-lg-6">
-            <a href="https://www.youtube.com/watch?v=JnfZICwEHkI" target="_blank"><img class="video_image" src="media/video_img.jpg" alt=""></a>
+            <a href="https://www.youtube.com/watch?v=JnfZICwEHkI" target="_blank"><img class="video_image" src="media/video_img.jpg" alt="Company message video"></a>
         </div>
     </div>
 </div>

@@ -16,7 +16,22 @@ html {
     flex: 0 !important;
 }
 
+/* Poll page */
+#poll_cont {
+    padding-top: 30px;
+}
 
+.dark {
+  height:1000px;
+  background:white url(../../media/slide_4_background.jpg) !important;
+  background-size:cover;
+  position:relative;
+  color: white;
+}
+
+.progress-bar {
+    background:#02BC00 !important;
+}
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
@@ -376,6 +391,8 @@ img {vertical-align: middle;}
   background-size:cover;
   position:relative;
 }
+
+
 
 .login-dark form {
   max-width:320px;

@@ -16,9 +16,9 @@ html {
     flex: 0 !important;
 }
 
-/* Poll page */
+/* giveaway page */
 #poll_cont {
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .dark {
@@ -27,6 +27,14 @@ html {
   background-size:cover;
   position:relative;
   color: white;
+}
+
+.dark_2 {
+  background:white url(../../media/slide_4_background.jpg) !important;
+  background-size:cover;
+  position:relative;
+  color: white;
+  height: 1050px !important;
 }
 
 .progress-bar {
@@ -39,6 +47,15 @@ html {
 
 .fa-lock {
     color: #02BC00 !important;
+}
+
+.giveaway_item {
+    height: 100px !important;
+    width: 100px !important;
+}
+
+.giveaway_cont {
+    padding-top: 15px !important;
 }
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
@@ -749,7 +766,11 @@ img {vertical-align: middle;}
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
-        padding-top: 64px;
+        padding-top: 84px !important;
+    }
+
+    .pad_cont {
+     padding-top: 98px !important;   
     }
 
     body {
@@ -757,3 +778,14 @@ img {vertical-align: middle;}
     }
 }
 
+@media (max-width: 1366px) and (min-width: 1024px) {
+    .dark_2 {
+        height: 1300px !important;
+    }
+}
+
+@media (max-width: 653px) and (min-width: 280px) {
+    #poll_cont {
+        padding-top: 82px !important;
+    }
+}

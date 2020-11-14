@@ -21,6 +21,7 @@ html {
     padding-top: 50px;
 }
 
+
 .dark {
   height:1000px;
   background:white url(../../media/slide_4_background.jpg) !important;
@@ -625,6 +626,12 @@ img {vertical-align: middle;}
 
 /* -------------------------------- Media Queries */
 
+@media (max-width: 1366px) and (min-width: 1024px) {
+    .dark_2 {
+        height: 1300px !important;
+    }
+}
+
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
   .container {
@@ -722,23 +729,6 @@ img {vertical-align: middle;}
 }
 
 
-/* Surface Duo */
-@media (max-width: 540px){
-    .makeText {
-        font-size: 14px !important;
-    }
-    .button_green{
-        margin: auto !important;
-        margin-top: 20px;
-        margin-bottom: 60px !important;
-    }
-    .homeHeroZimgNew2{
-        width: 72%;
-    }
-   
-}
-
-
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
@@ -755,14 +745,6 @@ img {vertical-align: middle;}
     }
 }
 
-@media (max-width: 600px) {
-    .button_green {
-        margin-left: 90px;
-    }
-
-    
-}
-
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
@@ -773,19 +755,60 @@ img {vertical-align: middle;}
      padding-top: 98px !important;   
     }
 
+    #bag_cont {
+    padding-top: 100px !important;
+    }
+
     body {
         height: calc(100vh - 116px);
     }
-}
 
-@media (max-width: 1366px) and (min-width: 1024px) {
-    .dark_2 {
-        height: 1300px !important;
+    #checkout_cont {
+        padding-top: 100px !important;
     }
 }
+
 
 @media (max-width: 653px) and (min-width: 280px) {
     #poll_cont {
         padding-top: 82px !important;
     }
+}
+
+@media (max-width: 600px) {
+    .button_green {
+        margin-left: 90px;
+    }
+}
+
+@media (max-width: 540px){
+    #keep_shop_btn {
+        padding-top: 50px !important;
+    }
+}
+
+/* Surface Duo */
+@media (max-width: 540px){
+    .makeText {
+        font-size: 14px !important;
+    }
+    .button_green{
+        margin: auto !important;
+        margin-top: 20px;
+        margin-bottom: 60px !important;
+    }
+    .homeHeroZimgNew2{
+        width: 72%;
+    }
+   
+}
+
+@media (max-width: 516px) {
+   #bag_cont {
+       padding-top: 130px !important;
+   }
+
+   #checkout_cont {
+       padding-top: 130px !important;
+   }
 }

@@ -1,10 +1,11 @@
 
 from pathlib import Path
 import os
+import dj_database_url
 from os import path
 if path.exists('env.py'):
     import env
-import dj_database_url
+
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases

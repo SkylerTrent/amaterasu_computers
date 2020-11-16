@@ -1,1 +1,1 @@
-web:gunicorn amaterasu_computers.wsgi:application
+web: gunicorn amaterasu_computers.wsgi:application

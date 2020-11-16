@@ -1,0 +1,1 @@
+web: gunicorn amaterasu_computers.wsgi:application

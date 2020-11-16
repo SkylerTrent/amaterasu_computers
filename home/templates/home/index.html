@@ -2,208 +2,251 @@
 {% load static %}
 
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
-    </div>
+<div class="container header-container">
+	<div class="row">
+		<div class="col"></div>
+	</div>
+</div>
 {% endblock %}
 
 {% block content %}
-    <div id="myCarousel" class="carousel slide item " data-ride="carousel">
-    <div class="mySlides ">
-    <div class="homeHeroNew2 homeHero-1" style="background-image: url(media/slide_4_background.jpg)">
-            <div class="homeHeroRowZ"><div class="homeHeroColZ1"><h3 class="xidHomeTitle3 ">MONTHLY GIVE AWAY</h3><h1 class="xidHomeTitle1 ">THIS MONTH, YOU GET TO DECIDE. DON'T FORGET TO CAST YOUR VOTE!</h1><div class="zoom button button_green"><a class="text_white" href="{% url 'giveaway' %}">VOTE NOW</a></div></div><div class="homeHeroColZ1"><a href="{% url 'giveaway' %}"><img class="zoom homeHeroZimgNew2" src="media/slide_1_add_overlay.jpg"/></a></div>          </div>
-        </div>
-    </div>
-    </div>
-    <div class="item">
-      <div class="mySlides">
-  <div class="numbertext">2 / 3</div>
- <div class="homeHeroNew2 homeHero-1" style="background-image: url(media/slide_4_background.jpg) !important;">
-            <div class="homeHeroRowZ"><div class="homeHeroColZ1"><h1 class="xidHomeTitle1 no-margin">GEFORCE RTX 30 SERIES</h1><h3 class="xidHomeTitle3 no-margin">THE ULTIMATE PLAY</h3><h5 class="xidHomeTitle5 no-margin">GeForce RTX™ 30 Series GPUs deliver the ultimate performance for gamers and creators.</h5><div class="zoom  button_green"><a href="{% url 'products' %}?category=graphic_card" class="text_white">SHOP NOW</a></div></div><div class="homeHeroColZ1"><a href="{% url 'products' %}?category=graphic_card"><img class="zoom homeHeroZimgNew2" src="media/slide_2_add_overlay.jpg"/></a></div>          </div>
-        </div>
+<div id="myCarousel" class="carousel slide item " data-ride="carousel">
+	<div class="mySlides ">
+		<div class="homeHeroNew2 homeHero-1" style="background-image: url(media/slide_4_background.jpg)">
+			<div class="homeHeroRowZ">
+				<div class="homeHeroColZ1">
+					<h3 class="xidHomeTitle3 ">MONTHLY GIVE AWAY</h3>
+					<h1 class="xidHomeTitle1 ">THIS MONTH, YOU GET TO DECIDE. DON'T FORGET TO CAST YOUR VOTE!</h1>
+					<div class="zoom button button_green"><a class="text_white" href="{% url 'giveaway' %}">VOTE NOW</a>
+					</div>
+				</div>
+				<div class="homeHeroColZ1"><a
+						href="{% url 'giveaway' %}"><img class="zoom homeHeroZimgNew2" src="media/slide_1_add_overlay.jpg"/></a>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
-    </div>
-    <div class="item">
-      <div class="mySlides">
-  <div class="numbertext">3 / 3</div>
-  <div class="homeHeroNew2 homeHero-1" style="background-image: url(media/slide_4_background.jpg) !important;">
-            <div class="homeHeroRowZ"><div class="homeHeroColZ1"><h1 class="xidHomeTitle1 no-margin">HAND-BUILT TO PERFECTION</h1><h2 class="xidHomeTitle2 no-margin">LIFETIME
-WARRANTY</h2></div><div class="homeHeroColZ1"><a href="{% url 'products' %}?category=gaming_pc"><img class="zoom homeHeroZimgNew2" src="media/slide_3_background.jpg"/></a></div>          </div>
-        </div>
-    </div>
-  </div>
-    <div>
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
-  </a>
+<div class="item">
+	<div class="mySlides">
+		<div class="numbertext">2 / 3</div>
+		<div class="homeHeroNew2 homeHero-1" style="background-image: url(media/slide_4_background.jpg) !important;">
+			<div class="homeHeroRowZ">
+				<div class="homeHeroColZ1">
+					<h1 class="xidHomeTitle1 no-margin">GEFORCE RTX 30 SERIES</h1>
+					<h3 class="xidHomeTitle3 no-margin">THE ULTIMATE PLAY</h3>
+					<h5 class="xidHomeTitle5 no-margin">GeForce RTX™ 30 Series GPUs deliver the ultimate performance for
+						gamers and creators.</h5>
+					<div class="zoom  button_green"><a href="{% url 'products' %}?category=graphic_card"
+							class="text_white">SHOP NOW</a></div>
+				</div>
+				<div class="homeHeroColZ1"><a
+						href="{% url 'products' %}?category=graphic_card"><img class="zoom homeHeroZimgNew2" src="media/slide_2_add_overlay.jpg"/></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="item">
+	<div class="mySlides">
+		<div class="numbertext">3 / 3</div>
+		<div class="homeHeroNew2 homeHero-1" style="background-image: url(media/slide_4_background.jpg) !important;">
+			<div class="homeHeroRowZ">
+				<div class="homeHeroColZ1">
+					<h1 class="xidHomeTitle1 no-margin">HAND-BUILT TO PERFECTION</h1>
+					<h2 class="xidHomeTitle2 no-margin">LIFETIME
+						WARRANTY</h2>
+				</div>
+				<div class="homeHeroColZ1"><a
+						href="{% url 'products' %}?category=gaming_pc"><img class="zoom homeHeroZimgNew2" src="media/slide_3_background.jpg"/></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div>
+	<!-- Left and right controls -->
+	<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="right carousel-control" href="#myCarousel" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right"></span>
+		<span class="sr-only">Next</span>
+	</a>
 </div>
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 <a class="next" onclick="plusSlides(1)">&#10095;</a>
 <br>
 <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
+	<span class="dot" onclick="currentSlide(1)"></span>
+	<span class="dot" onclick="currentSlide(2)"></span>
+	<span class="dot" onclick="currentSlide(3)"></span>
 </div>
- <!-- Customize Your Gaming PC -->
- <div id="customize_pc" class="container-fluid">
-    <div class="row">
-        <div class="col-sm-12 col-lg-6">
-            <img src="media/custom_pc.jpg" class="float-right zoom custom_pc" alt="Custom pc">
+<!-- Customize Your Gaming PC -->
+<div id="customize_pc" class="container-fluid">
+	<div class="row">
+		<div class="col-sm-12 col-lg-6">
+			<img src="media/custom_pc.jpg" class="float-right zoom custom_pc" alt="Custom pc">
         </div>
-        <div class="col-sm-12 col-lg-4 my-auto">
-            <div class="makeTitle">GET YOUR AMATERASU GAMING PC</div> 
-            <div class="makeText">Amaterasu PC is built to perfection according to your needs using only top rated components, and backed by a lifetime service guarantee.</div>
-            <div class="zoom  button_green"><a href="{% url 'products' %}?category=gaming_pc" class="text_white">Shop Now</a></div>
-        </div>
-    </div>
- </div>
- <!-- PC type selection -->
- <div id="pc_selection" class="container-fluid" >
-    <div class="row">
-        <div class="col-sm-12 col-lg-6">
-            <img src="media/parts.jpg" class=" zoom pc_sel_mobil mx-auto d-block" alt="collage of pc parts">
-            <div class="zoom button_green center_item" style="margin-top: 45px !important;"><a href="{% url 'products' %}?category=graphic_card,cpu,case,hard_drive,solid_state,ram,motherboard,power_supply" class="text_white">Hardware</a></div>
-        </div>
-        <div class="col-sm-12 col-lg-6 my-auto">
-           <img  src="media/gigabyte_monitor.jpg" class=" zoom pc_sel_mobil mx-auto d-block" alt="pc monitor">
-            <div  class="zoom button_green center_item" style="margin-top: 45px !important;"><a href="{% url 'products' %}?category=monitor" class="text_white">Monitor's</a></div>
-        </div>
-    </div>
- </div>
-<!-- Our Focus Section -->
-<div class="container-fluid">
-    <div class="row">
-        <h1 id="focus_h1" class="center_item sysTitle">OUR FOCUS</h1>
-    </div>
-    <div class="row p-bottom" >
-        <div class="col-sm-12 col-lg-4" >
-            <img class="focus_img center_item" src="media/focus_craftsmanship.jpg" alt="company focus image 3">
-            <div>
-                <h3 class="focusTitle text-center">CRAFTSMANSHIP</h3>
-            </div>
-            <div class="div">
-                <p class="focus_p text-center">Your PC is crafted by the our precise and effective Amaterasu Computers system-builders. Building a Amaterasu Computers PC isn't merely a matter of assembly, it's a transfer of heart and soul into every build. Amaterasu Computers is home to some of the most respected PC builders in the nation. Anyone can build a PC, but only a few hand-selected, obsessive, 360-point certified craftsmen can build a Amaterasu Computers PC</p>
-            </div>
-        </div>
-        <div class="col-sm-12 col-lg-4">
-            <img class="focus_img center_item" src="media/focus_testing.jpg" alt="company focus image 2">
-            <div>
-                <h3 class="focusTitle text-center">TESTING</h3>
-            </div>
-            <div class="div">
-                <p class="focus_p text-center">A PC with amazing hardware is of no use if it's not stable as hell. Amaterasu Computers PCs are put thru a battery of tests to ensure that when your PC arrives there are no surprises and you can jump right into perfecting your game.</p>
-            </div>
-        </div>
-        <div class="col-sm-12 col-lg-4">
-            <img class="focus_img center_item" src="media/focus_support.jpg" alt="company focus image">
-            <div>
-                <h3 class="focusTitle text-center">SUPPORT</h3>
-            </div>
-            <div class="div">
-                <p class="focus_p text-center">Your Amaterasu Computers PC is an investment, and it should be protected as such. All Amaterasu Computers support is provided by talented in-house, USA based support agents that are hand-picked to provide our customers with a fantastic experience. Whether it's a simple question, or a failed graphics card, you can expect no more than a blip in downtime with our unmatched level of support and knowledge.</p>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Family section w/video Section -->
-<div id="video_section" class="container-fluid">
-    <div class="row" style="padding: 65px;">
-        <div class="col-sm-12 col-lg-6 my-auto">
-           <h1 class=" makeTitle2">YOU’RE NOT A CUSTOMER, YOU’RE A FAMILY MEMBER</h1> 
-           <div>
-                <p class="makeText2 text-justify">When Amaterasu Computers was founded, we knew the only way to set us apart from the competition is to be the best at what we do. Each PC is hand-crafted, stress-tested, and built to exceed your expectations. Amaterasu Computers has PC building not only down to a science, but to a breathtaking art form.</p>
-           </div>
-        </div>
-        <div class="col-sm-12 col-lg-6">
-            <a href="https://www.youtube.com/watch?v=JnfZICwEHkI" target="_blank"><img class="video_image" src="media/video_img.jpg" alt="Company message video"></a>
-        </div>
-    </div>
-</div>
- 
-<!-- Site footer refrenced from codepen.com-->
-<!-- Site footer -->
-    <footer class="site-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-6 col-md-3">
-            <h6>Quick Links</h6>
-            <ul class="footer-links" id="About">
-              <li><a class="text_white focus_p" href="index.html">Home</a></li>
-              <li><a class="text_white focus_p" href="#gallery">Gaming PC's</a></li>
-              <li><a class="text_white focus_p " href="#contact">Hardware</a></li>
-            </ul>
-          </div>
-          <div class="col-xs-6 col-md-3">
-            <h6>Our Mission</h6>
-            <p class="focus_p">
-              Amaterasu Computers driving philosophy is to deliver to its customers 
-              cutting-edge technology and performance along with rock-solid support. 
-              As a validation of Amaterasu Computer’s success the company has retained an
-               “A+” rating from the Better Business Bureau.
-            </p>
-          </div>
-          <div class="col-sm-12 col-md-6">
-            <h6>About Us</h6>
-            <p class="text-justify focus_p">
-              Amaterasu Computers has been in business since 2002, in that time its reputation as a premiere system integrator has grown exponentially.
-              Amaterasu Computers produces some of the fastest gaming computers in the market. It is constantly pushing the boundaries of performance so
-              that its customers will enjoy a gaming experience unmatched by any of Amaterasu Computers’s competitors.
-            </p>
-          </div>
-        </div>
-        <hr />
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-6 col-xs-12">
-            <p class="copyright-text">
-              Copyright &copy; Educational Purpose's only.
-              <a href="#">Amaterasu Computers</a>
-            </p>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <ul class="social-icons">
-              <li>
-                <a class="facebook" href="https://www.facebook.com/"
-                  ><i class="fab fa-facebook"></i
-                ></a>
-              </li>
-              <li>
-                <a class="twitter" href="https://www.twitter.com/"
-                  ><i class="fab fa-twitter-square"></i
-                ></a>
-              </li>
-              <li>
-                <a class="dribbble" href="https://www.dribble.com/"
-                  ><i class="fas fa-basketball-ball"></i
-                ></a>
-              </li>
-              <li>
-                <a class="linkedin" href="https://www.linkdin.com/"
-                  ><i class="fab fa-linkedin"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
-<!-- Site footer -->
+			<div class="col-sm-12 col-lg-4 my-auto">
+				<div class="makeTitle">GET YOUR AMATERASU GAMING PC</div>
+				<div class="makeText">Amaterasu PC is built to perfection according to your needs using only top rated
+					components, and backed by a lifetime service guarantee.</div>
+				<div class="zoom  button_green"><a href="{% url 'products' %}?category=gaming_pc"
+						class="text_white">Shop Now</a></div>
+			</div>
+		</div>
+	</div>
+	<!-- PC type selection -->
+	<div id="pc_selection" class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12 col-lg-6">
+				<img src="media/parts.jpg" class=" zoom pc_sel_mobil mx-auto d-block" alt="collage of pc parts">
+				<div class="zoom button_green center_item" style="margin-top: 45px !important;"><a
+						href="{% url 'products' %}?category=graphic_card,cpu,case,hard_drive,solid_state,ram,motherboard,power_supply"
+						class="text_white">Hardware</a></div>
+			</div>
+			<div class="col-sm-12 col-lg-6 my-auto">
+				<img  src="media/gigabyte_monitor.jpg" class=" zoom pc_sel_mobil mx-auto d-block" alt="pc monitor">
+				<div class="zoom button_green center_item" style="margin-top: 45px !important;"><a
+						href="{% url 'products' %}?category=monitor" class="text_white">Monitor's</a></div>
+			</div>
+		</div>
+	</div>
+	<!-- Our Focus Section -->
+	<div class="container-fluid">
+		<div class="row">
+			<h1 id="focus_h1" class="center_item sysTitle">OUR FOCUS</h1>
+		</div>
+		<div class="row p-bottom">
+			<div class="col-sm-12 col-lg-4">
+				<img class="focus_img center_item" src="media/focus_craftsmanship.jpg" alt="company focus image 3">
+				<div>
+					<h3 class="focusTitle text-center">CRAFTSMANSHIP</h3>
+				</div>
+				<div class="div">
+					<p class="focus_p text-center">Your PC is crafted by the our precise and effective Amaterasu
+						Computers system-builders. Building a Amaterasu Computers PC isn't merely a matter of assembly,
+						it's a transfer of heart and soul into every build. Amaterasu Computers is home to some of the
+						most respected PC builders in the nation. Anyone can build a PC, but only a few hand-selected,
+						obsessive, 360-point certified craftsmen can build a Amaterasu Computers PC</p>
+				</div>
+			</div>
+			<div class="col-sm-12 col-lg-4">
+				<img class="focus_img center_item" src="media/focus_testing.jpg" alt="company focus image 2">
+				<div>
+					<h3 class="focusTitle text-center">TESTING</h3>
+				</div>
+				<div class="div">
+					<p class="focus_p text-center">A PC with amazing hardware is of no use if it's not stable as hell.
+						Amaterasu Computers PCs are put thru a battery of tests to ensure that when your PC arrives
+						there are no surprises and you can jump right into perfecting your game.</p>
+				</div>
+			</div>
+			<div class="col-sm-12 col-lg-4">
+				<img class="focus_img center_item" src="media/focus_support.jpg" alt="company focus image">
+				<div>
+					<h3 class="focusTitle text-center">SUPPORT</h3>
+				</div>
+				<div class="div">
+					<p class="focus_p text-center">Your Amaterasu Computers PC is an investment, and it should be
+						protected as such. All Amaterasu Computers support is provided by talented in-house, USA based
+						support agents that are hand-picked to provide our customers with a fantastic experience.
+						Whether it's a simple question, or a failed graphics card, you can expect no more than a blip in
+						downtime with our unmatched level of support and knowledge.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Family section w/video Section -->
+	<div id="video_section" class="container-fluid">
+		<div class="row" style="padding: 65px;">
+			<div class="col-sm-12 col-lg-6 my-auto">
+				<h1 class=" makeTitle2">YOU’RE NOT A CUSTOMER, YOU’RE A FAMILY MEMBER</h1>
+				<div>
+					<p class="makeText2 text-justify">When Amaterasu Computers was founded, we knew the only way to set
+						us apart from the competition is to be the best at what we do. Each PC is hand-crafted,
+						stress-tested, and built to exceed your expectations. Amaterasu Computers has PC building not
+						only down to a science, but to a breathtaking art form.</p>
+				</div>
+			</div>
+			<div class="col-sm-12 col-lg-6">
+				<a href="https://www.youtube.com/watch?v=JnfZICwEHkI"
+					target="_blank"><img class="video_image" src="media/video_img.jpg" alt="Company message video"></a>
+			</div>
+		</div>
+	</div>
 
-{% endblock %}
+	<!-- Site footer refrenced from codepen.com-->
+	<!-- Site footer -->
+	<footer class="site-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6 col-md-3">
+					<h6>Quick Links</h6>
+					<ul class="footer-links" id="About">
+						<li><a class="text_white focus_p" href="index.html">Home</a></li>
+						<li><a class="text_white focus_p" href="#gallery">Gaming PC's</a></li>
+						<li><a class="text_white focus_p " href="#contact">Hardware</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-6 col-md-3">
+					<h6>Our Mission</h6>
+					<p class="focus_p">
+						Amaterasu Computers driving philosophy is to deliver to its customers
+						cutting-edge technology and performance along with rock-solid support.
+						As a validation of Amaterasu Computer’s success the company has retained an
+						“A+” rating from the Better Business Bureau.
+					</p>
+				</div>
+				<div class="col-sm-12 col-md-6">
+					<h6>About Us</h6>
+					<p class="text-justify focus_p">
+						Amaterasu Computers has been in business since 2002, in that time its reputation as a premiere
+						system integrator has grown exponentially.
+						Amaterasu Computers produces some of the fastest gaming computers in the market. It is
+						constantly pushing the boundaries of performance so
+						that its customers will enjoy a gaming experience unmatched by any of Amaterasu Computers’s
+						competitors.
+					</p>
+				</div>
+			</div>
+			<hr />
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-sm-6 col-xs-12">
+					<p class="copyright-text">
+						Copyright &copy; Educational Purpose's only.
+						<a href="#">Amaterasu Computers</a>
+					</p>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<ul class="social-icons">
+						<li>
+							<a class="facebook" href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+						</li>
+						<li>
+							<a class="twitter" href="https://www.twitter.com/"><i class="fab fa-twitter-square"></i></a>
+						</li>
+						<li>
+							<a class="dribbble"
+								href="https://www.dribble.com/"><i class="fas fa-basketball-ball"></i></a>
+						</li>
+						<li>
+							<a class="linkedin" href="https://www.linkdin.com/"><i class="fab fa-linkedin"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Site footer -->
 
-{% block postloadjs %}
-{{ block.super }}
-{% include 'home/includes/carasel_script.html' %}
-{% endblock %}
+	{% endblock %}
 
-
+	{% block postloadjs %}
+	{{ block.super }}
+	{% include 'home/includes/carasel_script.html' %}
+	{% endblock %}

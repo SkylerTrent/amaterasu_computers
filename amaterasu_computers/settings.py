@@ -4,6 +4,7 @@ import os
 from os import path
 if path.exists('env.py'):
     import env
+import dj_database_url
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
@@ -118,6 +119,9 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# Database
+# https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 
 # Password validation

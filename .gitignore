@@ -4,3 +4,4 @@ __pycache__/
 *.py[cod]
 *.sqlite3
 *.pyc
+new_user_credentials.csv

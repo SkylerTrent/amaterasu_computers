@@ -31,7 +31,7 @@ html {
 }
 
 .dark_2 {
-  background:white url(../../media/slide_4_background.jpg) !important;
+  background:white url(/media/slide_4_background.jpg) !important;
   background-size:cover;
   position:relative;
   color: white;

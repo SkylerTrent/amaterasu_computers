@@ -21,6 +21,9 @@ html {
     padding-top: 50px;
 }
 
+#home_hero_test{
+    background: url(../../media/slide_4_background.jpg) !important;
+}
 
 .dark {
   height:1000px;

@@ -762,7 +762,7 @@ img {vertical-align: middle;}
     }
 
     #bag_cont {
-    padding-top: 100px !important;
+    padding-top: 110px !important;
     }
 
     body {
@@ -770,7 +770,7 @@ img {vertical-align: middle;}
     }
 
     #checkout_cont {
-        padding-top: 100px !important;
+        padding-top: 110px !important;
     }
 }
 
@@ -812,10 +812,10 @@ img {vertical-align: middle;}
 
 @media (max-width: 516px) {
    #bag_cont {
-       padding-top: 130px !important;
+       padding-top: 150px !important;
    }
 
    #checkout_cont {
-       padding-top: 130px !important;
+       padding-top: 150px !important;
    }
 }

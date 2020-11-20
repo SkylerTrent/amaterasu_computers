@@ -93,9 +93,9 @@
 			<div class="col-xs-6 col-md-3">
 				<h6>Quick Links</h6>
 				<ul class="footer-links" id="About">
-					<li><a class="text_white focus_p" href="index.html">Home</a></li>
-					<li><a class="text_white focus_p" href="#gallery">Gaming PC's</a></li>
-					<li><a class="text_white focus_p " href="#contact">Hardware</a></li>
+					<li><a class="text_white focus_p" href="{% url 'home' %}">Home</a></li>
+					<li><a class="text_white focus_p" href="{% url 'products' %}?category=gaming_pc">Gaming PC's</a></li>
+					<li><a class="text_white focus_p " href="{% url 'products' %}">Hardware</a></li>
 				</ul>
 			</div>
 			<div class="col-xs-6 col-md-3">

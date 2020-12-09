@@ -73,16 +73,13 @@
                                                         data-item_id="{{ item.item_id }}"
                                                         id="id_qty_{{ item.item_id }}">
 										<div class="input-group-append">
-											<button class="increment-qty btn btn-sm btn-black rounded-0 zoom"
+											<button  class="increment-qty btn btn-sm btn-black rounded-0" style="margin-left: 1px !important;"
                                                             data-item_id="{{ item.item_id }}" id="increment-qty_{{ item.item_id }}">
                                                             <span>
                                                                 <i class="fas fa-plus fa-sm"></i>
                                                             </span>
                                                         </button>
 										</div>
-										{% if item.product.has_sizes %}
-										<input type="hidden" name="product_size" value="{{ item.size }}">
-                                                    {% endif %}
                                                 </div>
 									</div>
 							</form>

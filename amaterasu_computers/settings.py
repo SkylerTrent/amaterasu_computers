@@ -2,13 +2,12 @@
 from pathlib import Path
 import os
 import dj_database_url
-from os import path
-if path.exists('env.py'):
-    import env
 
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
+
+
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -68,14 +67,16 @@ TEMPLATES = [
              BASE_DIR / 'templates', 'allauth',
 
 
-             os.path.join(BASE_DIR, 'templates'), os.path.join(BASE_DIR, 'templates', 'allauth')
+             os.path.join(BASE_DIR, 'templates'),
+             os.path.join(BASE_DIR, 'templates', 'allauth')
 
         ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request',  # required by allauth
+                # required by allauth
+                'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
@@ -217,4 +218,3 @@ else:
     EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
     EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
     DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
-

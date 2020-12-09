@@ -6,9 +6,6 @@ from .models import Giveaway, Has_Voted
 
 # Create your views here.
 def view_giveaway(request):
-    """
-    This function keeps track of votes respectively to their product and displays total
-    """
     if request.user.is_authenticated:
         all_emails = Has_Voted.objects.values_list('user_email', flat=True)
         current_user_email = request.user.email
@@ -35,9 +32,6 @@ def view_giveaway(request):
 
 
 def add_vote(request, give_away_item_id):
-    """
-    This function adds users vote to the product of their choice. It also verifies that th user has not previously voted
-    """
     give_away_item = get_object_or_404(Giveaway, pk=give_away_item_id)
     current_user_email = request.user.email
     all_emails = Has_Voted.objects.values_list('user_email', flat=True)
